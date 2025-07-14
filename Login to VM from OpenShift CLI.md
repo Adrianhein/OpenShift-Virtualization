@@ -5,8 +5,10 @@
 #
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/UI-2.png)
 #
+#### Go to "Console Tab" , Click on "Get login credentials"
+![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Check-default-login-credentials.png)
 
-
+#
 ### Access log history to the VM within the specific project on OpenShift Platform
 
 
