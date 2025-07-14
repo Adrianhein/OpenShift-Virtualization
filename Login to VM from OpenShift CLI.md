@@ -11,7 +11,7 @@
 #
 
 
-### Getting stop
+### Getting stop VM
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Stopping-state-1.png)
 #
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Stopping-state-2.png)
@@ -617,6 +617,7 @@
         [centos@centos-stream9-test ~]$ 
 #
 
+### Getting stop VM
         [root@centos-stream9-test ~]# exit
         logout
        
