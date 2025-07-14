@@ -8,6 +8,10 @@
 #### Go to "Console Tab" , Click on "Get login credentials" VM's credentials.
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Check-default-login-credentials.png)
 #
+#
+
+
+### Getting stop
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Stopping-state-1.png)
 #
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Stopping-state-2.png)
