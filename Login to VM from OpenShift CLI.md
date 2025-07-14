@@ -1,3 +1,12 @@
+
+# VMI running on OpenShift
+
+![Photo-1](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/UI-1.png)
+#
+![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/UI-2.png)
+#
+
+
 ### Access log history to the VM within the specific project on OpenShift Platform
 
 
@@ -597,3 +606,4 @@
                valid_lft forever preferred_lft forever
         [centos@centos-stream9-test ~]$ 
 #
+
