@@ -7,8 +7,12 @@
 #
 #### Go to "Console Tab" , Click on "Get login credentials" VM's credentials.
 ![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Check-default-login-credentials.png)
-
 #
+![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Stopping-state-1.png)
+#
+![Photo-2](https://github.com/Adrianhein/OpenShift-Virtualization/blob/main/image/Stopping-state-2.png)
+#
+
 ### Access log history to the VM within the specific project on OpenShift Platform
 
 
@@ -609,3 +613,28 @@
         [centos@centos-stream9-test ~]$ 
 #
 
+        [root@centos-stream9-test ~]# exit
+        logout
+       
+        CentOS Stream 9
+        Kernel 5.14.0-592.el9.x86_64 on an x86_64
+
+        Activate the web console with: systemctl enable --now cockpit.socket
+
+        centos-stream9-test login: [sysadm@openshift-local-01 ~]$ 
+        [sysadm@openshift-local-01 ~]$ 
+        [sysadm@openshift-local-01 ~]$ 
+        [sysadm@openshift-local-01 ~]$ 
+#
+        [sysadm@openshift-local-01 ~]$ virtctl stop centos-stream9-test 
+        VM centos-stream9-test was scheduled to stop
+       
+        [sysadm@openshift-local-01 ~]$ oc get pods
+        No resources found in a-test-vms namespace.
+        
+        [sysadm@openshift-local-01 ~]$ oc get vm
+        NAME                  AGE   STATUS    READY
+        centos-stream9-test   8d    Stopped   False
+        [sysadm@openshift-local-01 ~]$ 
+
+#
